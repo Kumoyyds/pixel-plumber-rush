@@ -60,7 +60,7 @@ export class Game {
     this.powerUpSystem.update(dt, this.player, this.world);
     this.effectSystem.update(dt);
     this.audioSystem.update(dt);
-    this.camera.follow(this.player, this.world.width);
+    this.camera.follow(this.player, this.world.width, this.world.height);
   }
 
   draw() {
