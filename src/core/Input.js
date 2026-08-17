@@ -5,6 +5,8 @@ const CONTROL_KEYS = new Set([
   "KeyA",
   "KeyD",
   "KeyW",
+  "ArrowDown",
+  "KeyS",
   "Space",
 ]);
 
