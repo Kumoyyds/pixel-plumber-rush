@@ -6,6 +6,10 @@ const CONTROL_KEYS = new Set([
   "KeyD",
   "KeyW",
   "Space",
+  "Enter",
+  "Escape",
+  "KeyP",
+  "KeyR",
 ]);
 
 export class Input {
