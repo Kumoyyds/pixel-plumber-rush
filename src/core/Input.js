@@ -7,11 +7,13 @@ const CONTROL_KEYS = new Set([
   "KeyD",
   "KeyS",
   "KeyW",
-  "ArrowDown",
-  "KeyS",
   "Space",
   "ShiftLeft",
   "ShiftRight",
+  "Enter",
+  "Escape",
+  "KeyP",
+  "KeyR",
 ]);
 
 export class Input {
