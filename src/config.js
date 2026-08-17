@@ -7,8 +7,21 @@ export const GAME_CONFIG = Object.freeze({
   player: Object.freeze({
     width: 28,
     height: 40,
-    moveSpeed: 260,
+    moveSpeed: 280,
+    maxSpeed: 280,
+    groundAcceleration: 2200,
+    airAcceleration: 1500,
+    groundFriction: 2600,
+    airFriction: 850,
     jumpVelocity: 650,
+    jumpCutVelocity: 230,
+    maxFallSpeed: 1100,
+    coyoteTime: 0.1,
+    jumpBufferTime: 0.12,
+    dashSpeed: 620,
+    dashDuration: 0.12,
+    dashCooldown: 0.65,
+    groundPoundPause: 0.1,
     groundPoundVelocity: 1200,
   }),
   enemies: Object.freeze({
@@ -28,6 +41,10 @@ export const GAME_CONFIG = Object.freeze({
     rushSpeedMultiplier: 1.6,
     timeCrystalDuration: 8,
     timeCrystalScale: 0.4,
+  }),
+  camera: Object.freeze({
+    deadZoneWidth: 260,
+    deadZoneHeight: 150,
   }),
   colors: Object.freeze({
     sky: "#80c8e8",

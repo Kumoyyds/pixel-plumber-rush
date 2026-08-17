@@ -1,13 +1,17 @@
 const CONTROL_KEYS = new Set([
   "ArrowLeft",
   "ArrowRight",
+  "ArrowDown",
   "ArrowUp",
   "KeyA",
   "KeyD",
+  "KeyS",
   "KeyW",
   "ArrowDown",
   "KeyS",
   "Space",
+  "ShiftLeft",
+  "ShiftRight",
 ]);
 
 export class Input {
